@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, User, Code, Mail, ExternalLink, Github, Database, MapPin, Users, GraduationCap, Calendar, Award, BookOpen, Briefcase } from 'lucide-react';
 
+
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
@@ -172,7 +173,7 @@ function App() {
                 </div>
                 <div className="flex items-center gap-2 text-slate-500">
                   <Calendar size={18} className="text-purple-600" />
-                  <span className="text-sm font-medium">Class of 2025</span>
+                  <span className="text-sm font-medium">Class of 2026</span>
                 </div>
               </div>
             </div>
@@ -233,7 +234,7 @@ function App() {
                       <h4 className="font-semibold text-slate-800">Bachelor of Technology</h4>
                       <p className="text-blue-600 font-medium">Computer Science Engineering</p>
                       <p className="text-slate-600">SCMS School of Engineering and Technology</p>
-                      <p className="text-sm text-slate-500">2021 - 2025 (4th Year)</p>
+                      <p className="text-sm text-slate-500">2022 - 2026 (4th Year)</p>
                     </div>
                   </div>
                 </div>
